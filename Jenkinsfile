@@ -6,10 +6,17 @@
 
 //Declarative Syntax
 pipeline {
-	agent any
+	//agent any
+	//using docker as the pipeline agent
+	agent{
+		docker{
+			image 'mvn:3.6.3'
+		}
+	}
 	stages{
 		stage('Build'){
 			steps{
+				sh 'mvn --version'
 				echo "Build"
 			}
 		}

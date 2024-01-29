@@ -1,10 +1,10 @@
-//Scripted Syntax
+// //Scripted Syntax
 // node {
 // 		echo "Build"	
 // 		echo "Test"
 // }
 
-Declarative Syntax
+//Declarative Syntax
 node {
 	agent any
 	stages{

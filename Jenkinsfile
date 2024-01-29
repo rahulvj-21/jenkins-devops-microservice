@@ -5,7 +5,7 @@
 // }
 
 //Declarative Syntax
-node {
+pipeline {
 	agent any
 	stages{
 		stage('Build'){

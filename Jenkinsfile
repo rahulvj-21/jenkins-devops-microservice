@@ -6,6 +6,7 @@ node {
 
 // Declarative Syntax
 // node {
+//	agent any
 // 	stages{
 // 		stage('Build'){
 // 			steps{
